@@ -1,0 +1,214 @@
+/* Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Container Styles */
+.container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.container.red-bg {
+    background-color: #ff4b2b;
+    color: white;
+    text-align: center;
+}
+
+/* Form Styles */
+.form-container {
+    padding: 20px;
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.form-description {
+    text-align: center;
+    color: #777;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #555;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn-primary {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #ff4b2b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+.btn-primary:hover {
+    background-color: #ff5a22;
+}
+
+.form-footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.form-link {
+    color: #777;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.form-link:hover {
+    color: #ff4b2b;
+}
+
+/* Welcome Screen Styles */
+.welcome-container {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.welcome-container h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.welcome-container p {
+    margin-bottom: 30px;
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+.btn-outline {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-outline:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Icon Styles */
+.icon-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.mail-icon {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(255, 75, 43, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mail-icon svg {
+    color: #ff4b2b;
+    width: 30px;
+    height: 30px;
+}
+
+.check-icon {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(36, 240, 36, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.check-icon svg {
+    color: #24f024;
+    width: 30px;
+    height: 30px;
+}
+
+/* Resend Link Styles */
+.resend-text {
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #777;
+}
+
+.resend-link {
+    color: #ff4b2b;
+    transition: color 0.3s;
+}
+
+.resend-link:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 480px) {
+    .container {
+        max-width: 100%;
+        border-radius: 0;
+        box-shadow: none;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .welcome-container h2 {
+        font-size: 28px;
+    }
+}
