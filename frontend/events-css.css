@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Poppins', sans-serif;
+  color: #f4f4f4;
+  background-color: rgb(70, 63, 122);
+  overflow-x: hidden;
+}
+
+.upper-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+  background-color: #2D2850;
+}
+
+#Div1 a {
+  margin: 0 20px;
+  text-decoration: none;
+  font-size: 22px;
+  color: #FFFFFF;
+}
+
+#Profile img {
+  border-radius: 50%;
+  height: 60px;
+}
+
+.outer {
+  padding: 3rem;
+  min-height: 100vh;
+}
+
+.inner {
+  background-color: rgb(64, 57, 114);
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 2rem;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 5px 10px;
+  background-color: white;
+  flex: 1;
+  max-width: 400px;
+}
+
+.search-box input {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding-left: 8px;
+  width: 100%;
+}
+
+.search-icon {
+  font-size: 18px;
+  color: #333;
+}
+
+.filter-button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: #2d2850;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.filter-res {
+  color: greenyellow;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.card {
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+  height: 300px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+  color: white;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.time {
+  font-size: 13px;
+  opacity: 0.8;
+}
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.card-link:hover .card {
+  transform: scale(1.05);
+  filter: brightness(1.1);
+}
+
+#Div1 a:hover {
+  color: #30e85d;
+}
+#Profile img:hover {
+transform: scale(1.1);
+}

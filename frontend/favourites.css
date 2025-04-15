@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    width: 100%;
+    margin: 0 auto;
+   
+}
+
+#Div1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+#A4, #A5 {
+    margin: 0 20px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+.upper-nav{
+    background-color: #2D2850;;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   /* margin: 0px 3rem;*/
+   height:90px;
+}
+body{
+    background-color: #413A73;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+}
+#Profile img {
+    border-radius: 50%;
+    height: 60px;
+    margin-right: 25px;
+}
+
+.lower-nav{
+   /* display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px;
+    height: 100px;*/
+    background:linear-gradient(#D9D9D9 2%,#413A73);
+    height: 100px;
+    align-items: center;
+    display: flex;
+    /*font-size:larger;*/
+    
+}
+#A10,#A20,#A30,#A40{
+    margin-left: 180px;
+    
+    text-decoration: none;
+    font-size: 25px;
+    
+}
+/*.main-contents{
+        margin-top:70px;
+        margin-left: 400px;
+        margin-right: 400px;
+        width: 300px;
+        height: 200px;
+        background-color: #3498db;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.2em;
+        border-radius: 8px;
+      }*/
+
+.main-contents{
+        margin-top: 50px;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .card {
+        background:/* #2c2c54;*/#2D2850;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 450px;
+        height: 250px;
+        text-align: center;
+      }
+      
+      .card button {
+        padding: 10px 15px ;
+        border: none;
+        border-radius: 25px;
+        font-size: 26px;
+        outline: none;
+        background: #5f5fdc;
+        color: white;
+       transition: background 0.3s ease;
+        margin:4px;
+      }
+    
