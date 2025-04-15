@@ -25,10 +25,10 @@ DROP TABLE IF EXISTS `users`;
 CREATE TABLE `users` (
   `college_prn` varchar(50) NOT NULL,
   `name` varchar(100) NOT NULL,
-  `emial` varchar(255) NOT NULL,
+  `email` varchar(255) NOT NULL,
   `password` varchar(255) NOT NULL,
   PRIMARY KEY (`college_prn`),
-  UNIQUE KEY `emial` (`emial`)
+  UNIQUE KEY `email` (`email)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
